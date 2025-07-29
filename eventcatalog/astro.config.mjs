@@ -79,6 +79,7 @@ export default defineConfig({
     config.output !== 'server' && pagefind(),
     config.output !== 'server' && compress && (await import("astro-compress")).default({
       Logger: 0,
+      CSS: false,
     }),
   ].filter(Boolean),
   vite: {
@@ -90,6 +91,11 @@ export default defineConfig({
        * such as `node:path`.
        */
       '__EC_TRAILING_SLASH__': config.trailingSlash || false,
+    },
+    server: {
+      fs: {
+        allow: ['..', './node_modules/@fontsource']
+      }
     },
     worker: {
       format: 'es',

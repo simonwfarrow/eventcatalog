@@ -1,5 +1,84 @@
 # @eventcatalog/core
 
+## 2.53.1
+
+### Patch Changes
+
+- f811fb0: fix(core): fixed issue with scrolling on docs and nodegraphs
+
+## 2.53.0
+
+### Minor Changes
+
+- c4074d0: feat(core): added ability to customize detail panels on all pages
+
+## 2.52.0
+
+### Minor Changes
+
+- 6c7433e: feat(core): added ability to fetch schemas from a remote url
+
+## 2.51.1
+
+### Patch Changes
+
+- 2622135: feat:(core): added ability to restrict which entities are shown on the EntityMap component
+
+## 2.51.0
+
+### Minor Changes
+
+- 560c3a8: feat(core): updated ubiquitous language page, now renders subdomains …
+
+## 2.50.3
+
+### Patch Changes
+
+- a14c3e8: feat(core): added customization (props) to nodegraphs and flow compon…
+- 34d6bfa: fix(core): mermaid and plantuml now render in accordian
+
+## 2.50.2
+
+### Patch Changes
+
+- 498b9e4: feat(core): dropdown cta for all resource pages are now shown by default
+
+## 2.50.1
+
+### Patch Changes
+
+- 7f6da53: fix(core): fixed issue loading files in SSR mode
+
+## 2.50.0
+
+### Minor Changes
+
+- fff1249: fix(core): fixed issue loading files in SSR mode
+
+## 2.49.5
+
+### Patch Changes
+
+- 789a248: fix(core): fixed domain language explorer in SSR mode
+
+## 2.49.4
+
+### Patch Changes
+
+- f9d22d8: feat(core): added edit links into resource pages
+
+## 2.49.3
+
+### Patch Changes
+
+- 7130716: fix(core): no longer compress css
+
+## 2.49.2
+
+### Patch Changes
+
+- 8b0ae38: fix(core): fixed broken sidebar styles on list view settings
+
 ## 2.49.1
 
 ### Patch Changes
